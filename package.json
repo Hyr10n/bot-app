@@ -2,7 +2,7 @@
   "dependencies": {
     "discord.js": "discordjs/discord.js"
   },
-  "name": "Bot",
+  "name": "bot",
   "version": "0.1.0",
   "description": "Discord.js 12",
   "main": "main.js",
