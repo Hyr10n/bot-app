@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "discord.js": "discordjs/discord.js"
-  }
+  },
+  "name": "Bot",
+  "version": "0.1.0",
+  "description": "Discord.js 12",
+  "main": "main.js",
+  "repository": "https://github.com/Hyr10n/bot-app.git",
+  "author": "valentin <gritv85@gmail.com>",
+  "license": "MIT"
 }
