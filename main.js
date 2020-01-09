@@ -7,7 +7,9 @@ client.on("ready", () => {
 });
 
 client.on("message", msg => {
-  if (msg.content.startsWith(`${PREFIX}ping`)) msg.reply("Pong!");
+  if (msg.author.bot) return;
+  const args = msg.content.split(/ +/g);
+  const cmd = args.shift().toLocaleLowerCase();
 });
 
 client.login(TOKEN);
