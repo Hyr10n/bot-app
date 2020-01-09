@@ -10,7 +10,7 @@ client.on("message", msg => {
     .trim()
     .split(/ +/g);
   const cmd = args.shift().toLocaleLowerCase();
-  if (cmd === "info") {
+  if (cmd === "sinfo") {
     const embed = new MessageEmbed()
       .setDescription(msg.author.tag, msg.author.avatarURL())
       .addField("Membre", msg.guild.memberCount, true)
