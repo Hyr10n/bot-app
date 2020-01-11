@@ -32,6 +32,8 @@
       ],
       "curly": "off",
       "no-trailing-spaces": "off",
+      "prefer-template": "off",
+      "no-eval": "off",
       "extends": "airbnb",
       "rules": {
         "react/prop-types": [
